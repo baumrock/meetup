@@ -4,7 +4,7 @@ namespace ProcessWire;
 
 /** @var Config $config */
 $config->debug = true;
-$config->advanced = true;
+$config->advanced = false;
 $config->dbName = 'db';
 $config->dbUser = 'db';
 $config->dbPass = 'db';
