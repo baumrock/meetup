@@ -19,9 +19,9 @@ $config->livereload = 1;
 
 // RockMigrations
 // $config->filesOnDemand = 'https://your-live.site/';
-// $config->rockmigrations = [
-//   'syncSnippets' => true,
-// ];
+$config->rockmigrations = [
+  'syncSnippets' => true,
+];
 
 // tracy config for ddev development
 // $config->tracy = [
