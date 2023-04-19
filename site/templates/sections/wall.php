@@ -14,7 +14,7 @@
 
           <div class="uk-card-body">
             <h3 class="uk-card-title"><?= $item->title ?></h3>
-            <p><?= $item->location ?></p>
+            <p>@ <?= $item->location ?></p>
             <p><a href="<?= $item->url ?>">Details ...</a></p>
           </div>
 

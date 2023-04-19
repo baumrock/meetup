@@ -7,5 +7,6 @@
     </div>
     <h1><?= $page->title ?></h1>
     <?= $rockfrontend->renderIf("sections/wall.php", $page->template == 'wall'); ?>
+    <?= $rockfrontend->renderIf("sections/meetup.php", $page->template == 'meetup'); ?>
   </div>
 </main>
