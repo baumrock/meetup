@@ -7,9 +7,9 @@ if (!defined("PROCESSWIRE")) die();
 /** @var Config $config */
 
 /*** SITE CONFIG *************************************************************************/
-$config->useFunctionsAPI = true;
+$config->useFunctionsAPI = false;
 $config->usePageClasses = true;
-$config->useMarkupRegions = true;
+$config->useMarkupRegions = false;
 $config->prependTemplateFile = '_init.php';
 $config->appendTemplateFile = '_main.php';
 $config->templateCompile = false;
@@ -29,7 +29,6 @@ $config->timezone = 'Europe/Vienna';
 $config->defaultAdminTheme = 'AdminThemeUikit';
 $config->installed = 1681909532;
 
-$config->httpHosts = array('meetup.ddev.site');
 $config->debug = false;
 
 $localConfig = __DIR__ . "/config-local.php";
