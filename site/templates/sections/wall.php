@@ -4,6 +4,14 @@
       <div>
         <div class="uk-card uk-card-default">
 
+          <?php if ($item->image) : ?>
+            <div class="uk-card-media-top">
+              <a href="<?= $item->url ?>">
+                <img src="<?= $item->image->size(400, 300)->webp->url ?>" alt="<?= $item->title ?>">
+              </a>
+            </div>
+          <?php endif; ?>
+
           <div class="uk-card-body">
             <h3 class="uk-card-title"><?= $item->title ?></h3>
             <p><?= $item->location ?></p>
