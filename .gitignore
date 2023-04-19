@@ -41,3 +41,5 @@ site/assets/pwpc
 ## ignore admin theme
 ## will be created by rockless
 site/assets/admin.css
+site/assets/RockFrontend/css/head.css
+site/templates/bundle/head.css
