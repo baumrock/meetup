@@ -14,6 +14,7 @@
             <?php
             $cls = "";
             if ($page->id === $item->id) $cls = "uk-active";
+            if ($item->children()->has($page)) $cls = "uk-active";
             ?>
             <li class="<?= $cls ?>">
               <a href="<?= $item->url ?>"><?= $item->title ?></a>
