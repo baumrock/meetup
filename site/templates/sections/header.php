@@ -10,7 +10,15 @@
 
       <div class="uk-navbar-right">
         <ul class="uk-navbar-nav">
-          <li>TBD: Navbar</li>
+          <?php foreach ($pages->get("/")->children() as $item) : ?>
+            <?php
+            $cls = "";
+            if ($page->id === $item->id) $cls = "uk-active";
+            ?>
+            <li class="<?= $cls ?>">
+              <a href="<?= $item->url ?>"><?= $item->title ?></a>
+            </li>
+          <?php endforeach; ?>
         </ul>
       </div>
 
