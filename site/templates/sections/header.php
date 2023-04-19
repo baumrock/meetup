@@ -9,7 +9,9 @@
       </div>
 
       <div class="uk-navbar-right">
-        TBD: Navbar
+        <ul class="uk-navbar-nav">
+          <li>TBD: Navbar</li>
+        </ul>
       </div>
 
     </nav>
